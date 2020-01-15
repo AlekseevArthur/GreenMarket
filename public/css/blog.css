@@ -1,0 +1,21 @@
+.blog-img, .blog-content{
+    display: inline-block;
+}
+.blog-text{
+    max-width: 500px; 
+}
+.blog-img{
+    max-width: 200px;
+}
+
+.blog-post{
+    max-width: 1000px;
+    text-align: center;
+    padding:40px
+}
+
+.blog-name{
+    font-size: 24px;
+    color: #333;
+    padding:10px 0
+}

@@ -1,0 +1,21 @@
+.user-pic{
+    width: 200px;
+}
+.user-info, .user-products{
+    display: inline-block;
+    vertical-align: top;
+    margin:auto
+}
+
+.user-info{
+    padding-top:60px
+}
+
+.user-products{
+    max-width: 900px;
+}
+
+.app{
+    text-align: center;
+    width: 100%;
+}

@@ -1,0 +1,37 @@
+
+.describeText,.advantages{
+    margin:auto;
+    margin-top: 20px;
+    text-align: center;
+    max-width: 1300px;
+  }
+  
+  h2{
+    text-transform: uppercase;
+    margin:auto;
+      text-align: center;
+    color: #1c961c;
+    padding:20px;
+    font-size: 25px;
+    border-bottom: 1px solid #1c961c;
+    max-width: 350px;
+  }
+  
+  .describeText p{
+    line-height: 1.25;
+    font-size: 1.3em;
+    margin:auto;
+    max-width: 500px;
+    display: inline-block;
+    padding:20px;
+    text-align: justify ;
+  }
+  
+  .advantages p{
+    line-height: 1.25;
+      max-width: 1000px;
+      margin:auto;
+      font-size: 1.4em;
+      text-align: justify ;
+      padding:20px;
+  }

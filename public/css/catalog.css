@@ -1,0 +1,86 @@
+* {
+  text-decoration: none;
+  font-family: "montserrat";
+}
+.app {
+  max-width: 1500px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+}
+
+.catalog-container {
+  max-width: 800px;
+  text-align: center;
+  margin: 40px;
+display: inline-block;
+}
+.card {
+  vertical-align:  middle;
+  display: inline-block;
+  width: 360px;
+  background: #c1ffcb;
+  box-shadow: 0 1px 4px rgba(127, 127, 127, 0.11);
+  margin: 10px 15px;
+}
+.top-section {
+  height: 310px;
+  overflow: hidden;
+  background: #fff;
+  position: relative;
+}
+.image-container {
+  width: 360px;
+  height: 360px;
+}
+
+.price {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #6ab04c;
+  font-size: 24px;
+}
+.product-info {
+  padding: 24px;
+}
+.name {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #333;
+}
+.dis {
+  font-size: 16px;
+  opacity: 0.7;
+}
+.btn1 {
+  display: block;
+  background: #6ab04c;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+.btn1:hover {
+  background: rgb(45, 128, 28);
+  cursor: pointer;
+}
+
+.filter {
+  vertical-align: top;
+  height: 444px;
+  text-align: left;
+  padding:30px;
+}
+
+.tree-section, .plant-section{
+  display:none
+}
+
+.filter-checkbox{
+  margin:10px;
+  font-size: 15px;
+}
+
+

@@ -1,0 +1,158 @@
+* {
+  font-family: "Varela", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+a{
+  color: #000 !important;
+}
+
+header {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+  z-index: 100 !important;
+}
+.top-header {
+  position: relative;
+  height: 100px;
+  background: linear-gradient(
+    90deg,
+    #27c227 0%,
+    rgb(180, 226, 166) 50.06%,
+    #27c227 100%
+  );
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  margin: auto;
+  height: 100px;
+  width: 130px;
+  background-image: url("./img/5.png");
+  background-size: 100%;
+}
+
+.search,
+.cart,
+.btn,
+.header-search-wrapper {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn {
+  top: 40px;
+  left: 40px;
+  width: 30px;
+  height: 20px;
+  background-image: url("./img/1.svg");
+}
+
+.search {
+  top: 40px;
+  right: 100px;
+  width: 20px;
+  height: 20px;
+  background-image: url("./img/2.svg");
+}
+.cart {
+  top: 30px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+  background-image: url("./img/3.png");
+  background-size: 100%;
+}
+.bottom-header {
+  text-align: center;
+}
+nav {
+  margin: auto;
+
+}
+.nav-item {
+  display: inline-block;
+  font-family: Lato, sans-serif;
+  margin: 17px;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  border-bottom: 1px solid green;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin: auto;
+  text-align: center;
+  color: #1c961c;
+  padding: 20px;
+  font-size: 25px;
+  border-bottom: 1px solid #1c961c;
+  max-width: 350px;
+}
+
+.footer{
+  padding:20px;
+  border-top:1px solid green;
+  margin:auto;
+  text-align: center;
+}
+
+.header-search-wrapper{
+  top: 38px;
+  right: 130px;
+
+}
+
+.header-search{
+  width: 150px;
+  height: 25px;
+  position: relative;
+}
+
+.search-result-wrapper{
+  width: 200px;
+  position: absolute;
+  top:25px;
+  right:0;
+
+  background-color: rgb(177, 233, 247);
+  z-index:100
+}
+
+.search-result{
+  height: 60px;
+  width: 200px;
+  text-align: left;
+
+}
+
+.search-result-img{
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+}
+
+.search-result-text{
+  width: 130px;
+  display: inline-block;
+  vertical-align: top; 
+}
+
+.search-result-name{
+  text-transform: uppercase;
+  padding:5px;
+  padding-top: 10px;
+  font-size:17px
+}
+
+.search-result-cost{
+
+padding:5px;
+color:green
+}
